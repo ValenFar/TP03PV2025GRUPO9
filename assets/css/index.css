@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #151c25;
+    margin: 0;
+    padding: 2rem;
+}
+
+.contenedor {
+    background: #7b777a;
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 400px rgba(255, 255, 255, 0.21);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.formulario-evento {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.formulario-evento input {
+    flex: 1;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.formulario-evento button {
+    padding: 2px 20px;
+}
+
+.lista-eventos {
+    display: flex;
+    flex-direction: column;
+    gap:  10px;
+}
+
+
+input {
+    width: 35%; 
+    padding: 8px;
+    font-size: 16px;
+}
+
+.producto-item {
+    color: rgb(255, 255, 255);
+    padding: 3px;
+}
+
