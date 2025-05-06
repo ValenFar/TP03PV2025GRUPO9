@@ -7,7 +7,7 @@ const FormularioEvento = ({ Agregar }) => {
         e.preventDefault()// No reiniciamos el estado del input
         if (!titulo.trim()) return // No se permite agregar un evento vacío
         Agregar({ titulo }) 
-        
+        setTitulo('') // !!!!!! NUEVA LÍNEA: Limpiamos el input después de agregar el evento
     }
 
     return (
@@ -23,4 +23,4 @@ const FormularioEvento = ({ Agregar }) => {
     )
 }
 
-export default FormularioEvento
+export default FormularioEvento;
