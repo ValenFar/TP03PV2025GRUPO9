@@ -18,7 +18,7 @@ const App = () => {
             )
         )
     }
-  // Función para editar un evento
+  // Función para editar un evento!
     const editarEvento = (id, nuevosDatos) => {
         setEventos(
             eventos.map((evento) =>

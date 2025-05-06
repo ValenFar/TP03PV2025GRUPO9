@@ -6,7 +6,7 @@ const Elementos = ({ evento, Eliminar, Alternar, Editar }) => {
 
     const manejarEdicion = () => {
         if (Editando) {
-            // Validar que el nuevo título no esté vacío
+            // Validar que el nuevo título no esté vacío!
             if (nuevoTitulo.trim() === '') {
                 alert('El título no puede estar vacío.')
                 return
